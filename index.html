@@ -21,38 +21,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1028048222904863&ev=PageView&noscript=1"/>
 </noscript>
 <!-- End Meta Pixel Code -->
-
-
-<!-- Download Button -->
-<a href="worlimtk.apk"
-   id="downloadBtn"
-   class="download-btn"
-   download>
-   ↓ DOWNLOAD APP
-</a>
-
-
-<!-- Download Tracking -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  const downloadBtn = document.getElementById("downloadBtn");
-
-  if (downloadBtn) {
-
-    downloadBtn.addEventListener("click", function () {
-
-      fbq('trackCustom', 'APKDownload', {
-        button_name: 'Download App',
-        file_name: 'worlimtk.apk'
-      });
-
-    });
-
-  }
-
-});
-</script>
+  
   <meta charset="UTF-8">
 
   <meta name="viewport"
